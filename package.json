@@ -1,0 +1,27 @@
+{
+  "name": "lotro-missions-recruiter",
+  "version": "1.0.0",
+  "description": "A discord bot to help recommend efficient mission choice in lotro",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vuldyn/lotro-missions-recruiter.git"
+  },
+  "author": "Vuldyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vuldyn/lotro-missions-recruiter/issues"
+  },
+  "homepage": "https://github.com/Vuldyn/lotro-missions-recruiter#readme",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "discord.js": "^14.2.0"
+  }
+}
